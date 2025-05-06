@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "set PORT=3001 && next dev",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write --ignore-unknown .",
@@ -11,11 +11,12 @@
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
+    "@wix/sdk": "^1.15.20",
     "clsx": "^2.1.1",
     "geist": "^1.3.1",
-    "next": "15.3.0-canary.13",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "next": "^14.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sonner": "^2.0.1"
   },
   "devDependencies": {
